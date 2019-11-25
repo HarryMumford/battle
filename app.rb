@@ -1,5 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  "some shit"
+  "hello"
+end
+
+get '/secret' do
+  "tuna"
 end

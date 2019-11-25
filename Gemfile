@@ -4,6 +4,7 @@ ruby '2.6.0'
 
 group :test, :development  do
   gem 'sinatra'
+  gem 'shotgun'
 end
 
 
